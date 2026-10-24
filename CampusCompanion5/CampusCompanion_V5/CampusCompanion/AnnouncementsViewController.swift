@@ -3,7 +3,7 @@ import CoreData
 
 private enum RemoteEndpoint {
     // This is the endpoint specified in the Exercise 5 handout.
-    static let announcements = URL(string: "https://raw.githubusercontent.com/laurenzalba/CampusCompanionV5/refs/heads/main/announcements.json")!
+    static let announcements = URL(string: "https://raw.githubusercontent.com/Vncn8/CampusCompanion5/refs/heads/main/CampusCompanion5/announcements.json")!
 }
 
 final class AnnouncementsViewController: UITableViewController {
